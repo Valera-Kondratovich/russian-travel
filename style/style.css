@@ -64,10 +64,13 @@
     line-height: 1.17;
     color: #fff;
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color .3s linear;
 }
 
 .header__lang-link:hover {
-    text-decoration:underline;
+    /* text-decoration:underline; */
+    border-color: #fff;
 }
 
 /* -----СЕКЦИЯ lead */
@@ -185,11 +188,11 @@
     max-width: 985px;
     display: flex;
     flex-direction: column;
-    row-gap: 80px;
+    row-gap: 77px;
 }
 
 .page__places {
-    margin: 0 auto;
+    margin: 0 auto 75px;
 }
 
 .place {
@@ -197,7 +200,7 @@
     grid-template-columns: minmax(30%, 460px) minmax(min-content, max-content);
     grid-template-rows: repeat(2, minmax(min-content, max-content));
     column-gap: 4%;
-    border: 1px solid rgb(255, 12, 12);
+    /* border: 1px solid rgb(255, 12, 12); */
     
 }
 
@@ -208,13 +211,13 @@
     font-weight: 900;
     color: #fff;
     margin:0 0 44px;
-    border: 1px solid rgb(0, 255, 247);
+    /* border: 1px solid rgb(0, 255, 247); */
 }
 .place__website {
 
     align-self: end;
-    margin-bottom: 48px;
-    border: 1px solid rgb(30, 207, 11);
+    margin-bottom: 45px;
+    /* border: 1px solid rgb(30, 207, 11); */
 }
 .place__url-heading {
     display: block;
@@ -233,15 +236,21 @@
     font-size: 18px;
     line-height: 1.22;
     color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    transition: opacity .2s linear;
+}
+.place__link:hover {
+    opacity: .8;
 }
 .place__img {
-    border: 1px solid rgb(229, 255, 0);
+    /* border: 1px solid rgb(229, 255, 0); */
     max-width: 100%;
     object-fit: cover;
     
 }
 .place__text-box{
-    border: 1px solid rgb(4, 0, 118);
+    /* border: 1px solid rgb(4, 0, 118); */
 }
 .place__text-box :last-of-type {
     padding-bottom: 0;
@@ -254,6 +263,98 @@
     color: #FFF;
     margin: 0;
     padding-bottom: 19px;
+    /* border: 1px solid rgb(82, 5, 249); */
+}
+
+/* ---------cover--------- */
+.cover {
     
-    border: 1px solid rgb(82, 5, 249);
+}
+.page__cover {
+
+}
+.cover__link {
+    display: block;
+    text-decoration: none;
+    background: url('../images/cover-trains.jpg') center / contain no-repeat;
+    margin-bottom: 92px;
+}
+.cover__box {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1184px;
+    background: rgba(42, 44, 47, 0.3);
+    min-height: 740px;
+    transition: background .5s linear;
+}
+.cover__box:hover {
+    background: rgba(42, 44, 47, 0.8);
+}
+
+.cover__title {
+    max-width: 560px;
+    font-family: 'Inter';
+    margin: 0 auto 32px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    color: #fff;
+    text-align: center;
+    
+}
+.cover__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #fff;
+    max-width: 360px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+/* --------footer----------- */
+
+.footer {
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.page__footer {
+    margin: 0 auto 24px;
+}
+.footer__items {
+    display: flex;
+    column-gap: 18px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.footer__link {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    color: #fff;
+    text-decoration: none;
+    transition: opacity 0.2s linear;
+}
+.footer__link:hover {
+opacity: .8;
+}
+
+.footer__copyright {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: right;
+    color: #fff;
 }
