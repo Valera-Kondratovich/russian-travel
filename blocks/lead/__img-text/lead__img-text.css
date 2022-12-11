@@ -1,0 +1,9 @@
+.lead__img-text {
+    font-family: 'Inter';
+    font-weight: normal;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 1.4;
+    letter-spacing: 0.15em;    
+}

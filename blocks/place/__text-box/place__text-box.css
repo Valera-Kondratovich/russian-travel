@@ -1,0 +1,3 @@
+.place__text-box :last-of-type {
+    padding-bottom: 0;
+}

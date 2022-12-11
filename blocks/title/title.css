@@ -1,0 +1,9 @@
+.title {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.04;
+    color:#fff;
+    max-width: 720px;
+    text-align: center;
+}
