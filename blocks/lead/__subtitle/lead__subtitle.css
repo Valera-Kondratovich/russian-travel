@@ -1,4 +1,4 @@
-.title__subtitle {
+.lead__subtitle {
     margin: 0 auto 64px;
     font-family: 'Inter';
     font-weight: normal;
@@ -11,18 +11,18 @@
     -webkit-font-smoothing: antialiased;
 }
 @media screen and (max-width: 1024px) {
-    .title__subtitle {
+    .lead__subtitle {
         margin: 0 auto 56px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .title__subtitle { 
+    .lead__subtitle { 
         font-size: 3.9vw;
     }
 }
 @media screen and (max-width: 320px) {
-    .title__subtitle {
+    .lead__subtitle {
         margin: 0 auto 40px;
         font-size: 16px;
         line-height: 1.25;
