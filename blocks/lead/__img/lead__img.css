@@ -3,4 +3,10 @@
     max-width: 100%;
     object-fit:cover;
     margin-bottom: 5px;
+    -o-object-fit:cover;
+}
+@media screen and (max-width: 320px) {
+    .lead__img {
+        margin-bottom: 2px;
+    }
 }

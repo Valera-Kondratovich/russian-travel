@@ -4,5 +4,19 @@
     color: #fff;
     font-size: 54px;
     line-height: 1.07;
-    margin: 0 0 40px;      
+    margin: 0 0 40px;  
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;    
+}
+@media screen and (max-width: 768px) {
+    .intro__title {
+        font-size: 7vw;
+    }
+}
+@media screen and (max-width: 320px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 1.09;
+        max-width: 251px;
+    }
 }

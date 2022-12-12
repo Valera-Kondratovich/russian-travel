@@ -5,10 +5,21 @@
     line-height: 1.17;
     color: #fff;
     text-decoration: none;
+    -webkit-transition: border-color .3s linear;
+    -o-transition: border-color .3s linear;
     border-bottom: 2px solid transparent;
     transition: border-color .3s linear;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 .header__lang-link:hover {
     border-color: #fff;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 1.11;
+    }
 }

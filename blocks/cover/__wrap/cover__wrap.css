@@ -1,7 +1,7 @@
 .cover__wrap {
     position: relative;
     padding-top: 62.4%;
-    background: url('../images/cover-trains.jpg') center / contain no-repeat;
+    background: url('../../../images/cover-trains.jpg') center / contain no-repeat;
 }
 .cover__wrap::before {
     display: block;

@@ -7,6 +7,10 @@
     text-decoration: none;
     border-bottom: 1px solid #fff;
     transition: opacity .2s linear;
+    -webkit-transition: opacity .2s linear;
+    -o-transition: opacity .2s linear;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 .place__link:hover {
     opacity: .8;

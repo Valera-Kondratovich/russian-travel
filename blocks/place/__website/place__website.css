@@ -2,3 +2,15 @@
     align-self: end;
     margin-bottom: 45px;
 }
+@media screen and (max-width: 768px) {
+.place__website {
+        align-self: end;
+        margin-bottom: 48px;
+    }
+}
+@media screen and (max-width: 455px) {
+    .place__website {
+        padding: 0 16px;
+        margin-bottom: 32px;
+    }
+}
