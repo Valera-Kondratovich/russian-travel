@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: minmax(30%, 460px) minmax(min-content, max-content);
     grid-template-rows: repeat(2, minmax(min-content, max-content));
-    column-gap: 40px;  
+    column-gap: 40px;
     -webkit-column-gap: 40px;
     -moz-column-gap: 40px;  
 }
