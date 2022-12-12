@@ -6,3 +6,4 @@
 * Сайт адаптирован под размеры от 320px до 1280px.
 * Использование медиазапросов
 ...
+[Ссылка на GitHub Pages](https://valera-kondratovich.github.io/russian-travel/)
