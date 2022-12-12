@@ -3,7 +3,7 @@
 @import url(../vendor/fonts.css);
 /* ------page----- */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__container/page__container.css);
+@import url(../blocks/page/_center/page_center.css);
 
 /* секция header */
 @import url(../blocks/page/__header/page__header.css);
