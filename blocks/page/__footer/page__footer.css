@@ -1,6 +1,7 @@
 .page__footer {
     margin: 0 auto 24px;
 }
+
 @media screen and (max-width: 320px) {
     .page__footer {
         margin: 0;

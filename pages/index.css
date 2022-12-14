@@ -3,13 +3,14 @@
 @import url(../vendor/fonts.css);
 /* ------page----- */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/_center/page_center.css);
+@import url(../blocks/page/_margin-center/page_margin-center.css);
 
 /* секция header */
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /* секция lead */
 @import url(../blocks/page/__lead/page__lead.css);
@@ -25,9 +26,8 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__aside/intro__aside.css);
-@import url(../blocks/aside/__desc/aside__desc.css);
-@import url(../blocks/aside/__text/_up/aside__text_up.css);
-@import url(../blocks/aside/__val/aside__val.css);
+@import url(../blocks/intro/__desc/intro__desc.css);
+@import url(../blocks/intro/__val/intro__val.css);
 
 /* секция photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);
@@ -50,9 +50,7 @@
 /* секция cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/page/__cover/page__cover.css);
-@import url(../blocks/cover/__wrap/cover__wrap.css);
 @import url(../blocks/cover/__link/cover__link.css);
-@import url(../blocks/cover/__box/cover__box.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__text/cover__text.css);
 

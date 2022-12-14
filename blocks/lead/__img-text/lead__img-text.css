@@ -1,5 +1,5 @@
 .lead__img-text {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-weight: normal;
     color: #fff;
     font-size: 10px;
@@ -9,13 +9,15 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
+
 @media screen and (max-width: 768px) {
     .lead__img-text {
         padding-left: 24px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .lead__img-text {
-            padding-left: 16px;
-        }
+        padding-left: 16px;
+    }
 }
