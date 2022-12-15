@@ -10,21 +10,27 @@
     -webkit-transition: background .5s linear;
     -o-transition: background .5s linear;
     transition: background .5s linear;
-    padding: 19vw 0;
+    padding: 245px 0;
 }
 
 .cover__link:hover {
     background: rgba(42, 44, 47, 0.8);
 }
 
+@media screen and (max-width: 1024px) {
+    .cover__link {
+        padding: 195px 10px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .cover__link {
-        padding: 15vw 10px;
+        padding: 115px 10px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .cover__link {
-        padding: 10vw 0;
+        padding: 33px 0;
     }
 }

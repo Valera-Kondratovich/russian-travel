@@ -3,7 +3,7 @@
 @import url(../vendor/fonts.css);
 /* ------page----- */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/_margin-center/page_margin-center.css);
+@import url(../blocks/page/_position_center/page_position_center.css);
 
 /* секция header */
 @import url(../blocks/page/__header/page__header.css);
@@ -44,7 +44,6 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__img/place__img.css);
 @import url(../blocks/place/__text-box/place__text-box.css);
-@import url(../blocks/place/__text-box/_margin/place__text-box_margin.css);
 @import url(../blocks/place/__text/place__text.css);
 
 /* секция cover */
